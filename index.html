@@ -11,7 +11,7 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -27,13 +27,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpace</a>
+                            <a class="nav-link" href="#Backpacke">Backpacke</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
 
                     </ul>
@@ -143,7 +143,7 @@
         <!-- shoes section start  -->
         <section>
             <div class="container my-5">
-                <h2>Shoes</h2>
+                <h2 id="shoes">Shoes</h2>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
                         <div class="card h-100 border border-0 shadow-lg">
@@ -194,7 +194,7 @@
 
         <!-- shoes section end  -->
         <!-- Backpace section start  -->
-        <section>
+        <section id="Backpacke">
             <div class="container my-5">
                 <h2>Shoes</h2>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -246,8 +246,25 @@
         </section>
 
         <!-- Backpace section end -->
+        <!-- Subscribe section start  -->
+        <section style="height: 450;" id="subscribe"
+            class="container d-flex rounded-3 justify-content-center align-items-center bg-info">
+            <div class="m-5">
+                <h2>Lets stay in touch</h2>
+                <p>Get update and more information</p>
+                <form>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit" class="btn btn-warning mt-1">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!-- Subscribe section end  -->
     </main>
-
+    <footer class="mt-5 text-center">
+        <p>All copyrights have reserved, 2022</p>
+    </footer>
 
 
 
